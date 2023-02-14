@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "06be3b21-3ea8-480c-b3b7-39c4647c9b07",
-		"name": "Swagger Petstore",
+		"_postman_id": "4dc32c96-a36f-49b3-bd5e-898b2ee13f62",
+		"name": "Vus OAS Petstore",
 		"description": "Multi-file boilerplate for OpenAPI Specification.\n\nContact Support:\n Name: API Support\n Email: support@example.com",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "15405603-06be3b21-3ea8-480c-b3b7-39c4647c9b07"
+		"_uid": "15405603-4dc32c96-a36f-49b3-bd5e-898b2ee13f62"
 	},
 	"item": [
 		{
@@ -12,7 +12,7 @@
 			"item": [
 				{
 					"name": "List",
-					"id": "339ca3f1-0318-4536-95e6-77869ca61bc5",
+					"id": "71761454-1f35-47c4-9892-dd2fb16795b1",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -25,7 +25,7 @@
 							}
 						],
 						"url": {
-							"raw": "{{baseUrl}}/pets?limit=-13799151",
+							"raw": "{{baseUrl}}/pets?limit=-28482989",
 							"host": [
 								"{{baseUrl}}"
 							],
@@ -35,7 +35,7 @@
 							"query": [
 								{
 									"key": "limit",
-									"value": "-13799151",
+									"value": "-28482989",
 									"description": "How many items to return at one time (max 100)"
 								}
 							]
@@ -44,7 +44,7 @@
 					},
 					"response": [
 						{
-							"id": "3816b5d4-fd4c-44f8-badd-3e3642e08624",
+							"id": "535c06a0-a8c7-4219-91eb-c71cf59c3e95",
 							"name": "A paged array of pets",
 							"originalRequest": {
 								"method": "GET",
@@ -55,7 +55,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{baseUrl}}/pets?limit=-13799151",
+									"raw": "{{baseUrl}}/pets?limit=-28482989",
 									"host": [
 										"{{baseUrl}}"
 									],
@@ -65,7 +65,7 @@
 									"query": [
 										{
 											"key": "limit",
-											"value": "-13799151",
+											"value": "-28482989",
 											"description": "How many items to return at one time (max 100)"
 										}
 									]
@@ -75,13 +75,12 @@
 							"status": "OK",
 							"code": 200,
 							"_postman_previewlanguage": "json",
-							"_postman_previewtype": "html",
 							"header": [
 								{
 									"disabled": false,
 									"description": "A link to the next page of responses",
 									"key": "x-next",
-									"value": "voluptate quis"
+									"value": "ipsum sit"
 								},
 								{
 									"key": "Content-Type",
@@ -89,10 +88,10 @@
 								}
 							],
 							"cookie": [],
-							"body": "{\n  \"id\": 58308412,\n  \"name\": \"occaecat qui Ut\",\n  \"tag\": \"non\"\n}"
+							"body": "{\n  \"id\": -91780155,\n  \"name\": \"aute ad commodo\",\n  \"tag\": \"ipsum of\"\n}"
 						},
 						{
-							"id": "a67196b5-70f4-4cf9-94f7-e60ec549f434",
+							"id": "cb8a0f80-e0c4-4fb1-b5f7-c2ef64d3f41d",
 							"name": "unexpected error",
 							"originalRequest": {
 								"method": "GET",
@@ -103,7 +102,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{baseUrl}}/pets?limit=-13799151",
+									"raw": "{{baseUrl}}/pets?limit=-28482989",
 									"host": [
 										"{{baseUrl}}"
 									],
@@ -113,7 +112,7 @@
 									"query": [
 										{
 											"key": "limit",
-											"value": "-13799151",
+											"value": "-28482989",
 											"description": "How many items to return at one time (max 100)"
 										}
 									]
@@ -123,7 +122,6 @@
 							"status": "Internal Server Error",
 							"code": 500,
 							"_postman_previewlanguage": "json",
-							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -131,13 +129,13 @@
 								}
 							],
 							"cookie": [],
-							"body": "{\n  \"code\": 19567852,\n  \"message\": \"adipisicing consectetur\"\n}"
+							"body": "{\n  \"code\": -9059698,\n  \"message\": \"cupidatat nulla\"\n}"
 						}
 					]
 				},
 				{
 					"name": "Create",
-					"id": "a09224e8-3df8-4434-85a1-18b1f9087537",
+					"id": "73bd2121-edf9-47de-b4b5-47704c9a2790",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -162,7 +160,7 @@
 					},
 					"response": [
 						{
-							"id": "18e1a491-e2f9-4322-bc7f-29f293de6343",
+							"id": "21df674b-1cd5-4c40-aaad-3297eef29aaf",
 							"name": "Null response",
 							"originalRequest": {
 								"method": "POST",
@@ -186,7 +184,6 @@
 							"status": "Created",
 							"code": 201,
 							"_postman_previewlanguage": "text",
-							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -197,7 +194,7 @@
 							"body": ""
 						},
 						{
-							"id": "aebb1b1e-cadf-4e1f-b481-f1d745836d08",
+							"id": "e2400257-09d3-4df9-8b78-627396e92017",
 							"name": "unexpected error",
 							"originalRequest": {
 								"method": "POST",
@@ -221,7 +218,6 @@
 							"status": "Internal Server Error",
 							"code": 500,
 							"_postman_previewlanguage": "json",
-							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -229,13 +225,13 @@
 								}
 							],
 							"cookie": [],
-							"body": "{\n  \"code\": 19567852,\n  \"message\": \"adipisicing consectetur\"\n}"
+							"body": "{\n  \"code\": -9059698,\n  \"message\": \"cupidatat nulla\"\n}"
 						}
 					]
 				},
 				{
 					"name": "Detail",
-					"id": "b9d4f8df-0a3a-47b5-b8aa-23bc1c31c606",
+					"id": "c325a9a7-6092-41ed-8c83-b04261c4d17a",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -259,7 +255,7 @@
 							"variable": [
 								{
 									"key": "petId",
-									"value": "voluptate quis",
+									"value": "ipsum sit",
 									"description": "(Required) The id of the pet to retrieve"
 								}
 							]
@@ -268,7 +264,7 @@
 					},
 					"response": [
 						{
-							"id": "c3766527-9da4-495a-b41b-8e2c5ed4cc85",
+							"id": "c325c4b8-6414-41fe-a5cc-d7040d8ef930",
 							"name": "Expected response to a valid request",
 							"originalRequest": {
 								"method": "GET",
@@ -290,7 +286,7 @@
 									"variable": [
 										{
 											"key": "petId",
-											"value": "voluptate quis",
+											"value": "ipsum sit",
 											"description": "(Required) The id of the pet to retrieve"
 										}
 									]
@@ -300,7 +296,6 @@
 							"status": "OK",
 							"code": 200,
 							"_postman_previewlanguage": "json",
-							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -308,10 +303,10 @@
 								}
 							],
 							"cookie": [],
-							"body": "{\n  \"id\": 58308412,\n  \"name\": \"occaecat qui Ut\",\n  \"tag\": \"non\"\n}"
+							"body": "{\n  \"id\": -91780155,\n  \"name\": \"aute ad commodo\",\n  \"tag\": \"ipsum of\"\n}"
 						},
 						{
-							"id": "0d79d56c-d795-4a6c-97f8-961f3dd34570",
+							"id": "247a57c8-384f-43b6-9567-cbd5e559576d",
 							"name": "unexpected error",
 							"originalRequest": {
 								"method": "GET",
@@ -333,7 +328,7 @@
 									"variable": [
 										{
 											"key": "petId",
-											"value": "voluptate quis",
+											"value": "ipsum sit",
 											"description": "(Required) The id of the pet to retrieve"
 										}
 									]
@@ -343,7 +338,6 @@
 							"status": "Internal Server Error",
 							"code": 500,
 							"_postman_previewlanguage": "json",
-							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -351,17 +345,17 @@
 								}
 							],
 							"cookie": [],
-							"body": "{\n  \"code\": 19567852,\n  \"message\": \"adipisicing consectetur\"\n}"
+							"body": "{\n  \"code\": -9059698,\n  \"message\": \"cupidatat nulla\"\n}"
 						}
 					]
 				}
 			],
-			"id": "a6d77f4a-a0b8-481f-8a4b-a1a1f8f39fe1"
+			"id": "552c0f8c-536c-4b13-b9fc-80810f039432"
 		}
 	],
 	"variable": [
 		{
-			"id": "7f1dc384-6d75-46c5-80e5-9bced350c981",
+			"id": "b337e8bb-7b4e-443a-a333-23d86dd2998b",
 			"key": "baseUrl",
 			"value": "http://petstore.swagger.io/v1",
 			"type": "string"
