@@ -2,7 +2,7 @@ openapi: "3.0.0"
 info:
   version: 1.0.0
   title: Swagger Petstore
-  description: Multi-file boilerplate for OpenAPI Specification v1 PR TEST.
+  description: Multi-file boilerplate for OpenAPI Specification v1 PR TEST v2.
   license:
     name: MIT
   contact:
